@@ -1,0 +1,114 @@
+.nvbr {
+    margin-top: 2%;
+    position: sticky;
+
+}
+
+.logo {
+    margin-left: 2%;
+
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 7%;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    margin: 1%;
+}
+
+.mid-text {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.mid-text h1 {
+    line-height: 150%;
+}
+
+.mid-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-top: 5%;
+    list-style: none;
+}
+
+.mid-nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.mid-nav a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.img-cont-one{
+    display: flex;
+    gap: 5px;
+}
+.img-cont-one img{
+    margin: 0.5%;
+}
+.footer{
+    display: flex;
+    background-color: gray;
+    height: 8em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer a{
+    color: white;
+    font-size: 1.1em;
+}
+.footer p{
+    color: rgb(225, 223, 223);
+}
+
+.colorlib{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.colorlib a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+@media  screen and (max-width:768px) {
+    .unorder{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+  
+}
+@media screen and (max-width:576px){
+}
+.img-cont-one{
+    flex-direction: column;
+}
+.img-cont-one img{
+    width: 99%;
+}
+}
